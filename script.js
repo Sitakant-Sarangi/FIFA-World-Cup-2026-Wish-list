@@ -1,23 +1,25 @@
 const games = [
   {
     id: 1,
-    teams: "Canada vs Mexico",
-    venue: "Toronto Stadium, Toronto",
-    date: "June 11, 2026",
-    stage: "Opening Match"
+    teams: "Canada vs Bostnia and Herzegovina",
+    venue: "BMO Field, Toronto",
+    date: "June 12, 2026",
+    time: "3:00 PM",
+    stage: "Group B Match"
   },
   {
     id: 2,
-    teams: "USA vs Japan",
-    venue: "SoFi Stadium, Los Angeles",
-    date: "June 14, 2026",
+    teams: "Canada vs Qatar",
+    venue: "BC Place, Vancouver",
+    date: "June 18, 2026",
+    time: "6:00 PM",
     stage: "Group Stage"
   },
   {
     id: 3,
-    teams: "Brazil vs France",
-    venue: "AT&T Stadium, Dallas",
-    date: "June 20, 2026",
+    teams: "Canada vs Switzerland",
+    venue: "Mercedes-Benz Stadium, Atlanta",
+    date: "June 24, 2026",
     stage: "Group Stage"
   },
   {
