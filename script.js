@@ -20,27 +20,78 @@ const games = [
     teams: "Canada vs Switzerland",
     venue: "Mercedes-Benz Stadium, Atlanta",
     date: "June 24, 2026",
+    time: "3:00 PM",
     stage: "Group Stage"
   },
   {
     id: 4,
     teams: "",
-    venue: "MetLife Stadium, New York",
-    date: "July 3, 2026",
+    venue: "Gillette Stadium, Foxborough",
+    date: "July 9, 2026",
+    time: "3:00 PM",
     stage: "Quarter-final"
   },
   {
     id: 5,
     teams: "",
-    venue: "Mercedes-Benz Stadium, Atlanta",
-    date: "July 8, 2026",
+    venue: "SoFi Stadium, Los Angeles",
+    date: "July 10, 2026",
+    time: "4:00 PM",
+    stage: "Quarter-final"
+  },
+  {
+    id: 6,
+    teams: "",
+    venue: "Hard Rock Stadium, Miami Gardens",
+    date: "July 11, 2026",
+    time: "5:00 PM",
+    stage: "Quarter-final"
+  },
+  {
+    id: 7,
+    teams: "",
+    venue: "Arrowhead Stadium, Kansas City",
+    date: "July 11, 2026",
+    time: "9:00 PM",
+    stage: "Quarter-final"
+  },
+  {
+    id: 8,
+    teams: "",
+    venue: "MetLife Stadium, New York",
+    date: "July 3, 2026",
+    stage: "Quarter-final"
+  },
+   {
+    id: 9,
+    teams: "",
+    venue: "AT&T Stadium, Arlington",
+    date: "July 14, 2026",
+    time: "3:00 PM",
     stage: "Semi-final"
   },
   {
     id: 6,
+    teams: "",
+    venue: "Mercedes-Benz Stadium, Atlanta",
+    date: "July 15, 2026",
+    time: "3:00 PM",
+    stage: "Semi-final"
+  },
+  {
+    id: 10,
+    teams: "",
+    venue: "Hard Rock Stadium, Miami Gardens",
+    date: "July 18, 2026",
+    time: "5:00 PM",
+    stage: "Third Place Play-off"
+  },
+  {
+    id: 11,
     teams: "Final Match",
-    venue: "MetLife Stadium, New York",
+    venue: "MetLife Stadium, East Rutherford",
     date: "July 19, 2026",
+    time: "3:00 PM",
     stage: "Final"
   }
 ];
@@ -94,8 +145,8 @@ function renderGames() {
           <span class="stage-pill">${game.stage}</span>
           <h3>${game.teams || game.stage}</h3>
           <ul class="game-meta">
-            <li>📍 ${game.venue}</li>
-            <li>📅 ${game.date}</li>
+            <li> ${game.venue}</li>
+            <li> ${game.date}</li>
           </ul>
           <div class="card-footer">
             <span>${isSaved(game.id) ? "In your favourites" : "Add to your wishlist"}</span>
