@@ -88,8 +88,9 @@ function renderGames() {
     .map(
       (game) => `
         <article class="game-card">
+          <img class="game-card-image" src="images/ImageCreator_20260331112023.jpg" alt="${game.teams || game.stage} stadium view" />
           <span class="stage-pill">${game.stage}</span>
-          <h3>${game.teams}</h3>
+          <h3>${game.teams || game.stage}</h3>
           <ul class="game-meta">
             <li>📍 ${game.venue}</li>
             <li>📅 ${game.date}</li>
