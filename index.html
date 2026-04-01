@@ -10,4 +10,38 @@
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
+<header class="hero">
+    <div class="hero-content container">
+      <span class="tag">FIFA World Cup 2026</span>
+      <h1>Wishlist & Favourite Matches</h1>
+      <p>
+        Save the matches you are most excited to watch and keep your FIFA 2026 favourites in one place.
+      </p>
+      <div class="hero-image">
+        <img src="images/ImageCreator_20260331091917.jpg" alt="FIFA World Cup themed stadium" />
+      </div>
+      <div class="hero-actions">
+        <a href="#fixtures" class="btn primary">Browse Games</a>
+        <button id="clear-favourites" class="btn secondary">Clear Favourites</button>
+      </div>
+    </div>
+  </header>
 
+  <main class="container page-content">
+    <section id="fixtures" class="panel">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">Match Picks</p>
+          <h2>Featured FIFA 2026 Games</h2>
+        </div>
+        <p class="section-copy">Click <strong>Add to favourites</strong> to build your personal wishlist.</p>
+      </div>
+      <div id="games-grid" class="games-grid"></div>
+    </section>
+
+    <section class="panel favourites-panel">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">My Wishlist</p>
+          <h2>Your Favourite Games</h2>
+        </div>
